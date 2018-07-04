@@ -138,7 +138,7 @@ func main() {
 	defer keyFile.Close()
 
 	var privateKey = &pem.Block{
-		Type:  "PRIVATE KEY",
+		Type: "RSA PRIVATE KEY",
 		Bytes: x509.MarshalPKCS1PrivateKey(u.key.(*rsa.PrivateKey)),
 	}
 
