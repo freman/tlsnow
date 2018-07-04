@@ -1,0 +1,7 @@
+Directory="https://acme-staging.api.letsencrypt.org/directory"
+
+[[Domains]]
+Suffix="example.com"
+Email="tech@example.com"
+CFEmail="cloudflare@example.com"
+CFKey="2c3e0e78e123476bb967890c9ffdea0e8b000"
